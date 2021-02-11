@@ -1,0 +1,73 @@
+{
+    "questions": [{
+            "question": "-20 dBm ",
+            "answers": ["10 µW", "100 µW", "1 µW", "1 mW", "10 mW"],
+            "points": 2
+        },
+        {
+            "question": "-17 dBm",
+            "answers": ["20 µW", "200 µW", "2 µW", "50 µW", "500 µW"],
+            "points": 3
+        },
+        {
+            "question": "1 MHz in Meter",
+            "answers": ["300 m", "3000 m", "30 m", "3 m", "100 m", "1000 m", "10 m", "1 m", "10 cm"],
+            "points": 3
+        },
+        {
+            "question": "10 MHz in Meter",
+            "answers": ["30 m", "3000 m", "300 m", "3 m", "100 m", "1000 m", "10 m", "1 m", "10 cm"],
+            "points": 3
+        },
+        {
+            "question": "100 MHz in Meter",
+            "answers": ["3 m", "3000 m", "30 m", "300 m", "100 m", "1000 m", "10 m", "1 m", "10 cm"],
+            "points": 3
+        },
+        {
+            "question": "1 GHz in Meter",
+            "answers": ["30 cm", "300 m", "30 m", "3 cm", "100 m", "100 m", "10 m", "1 cm", "10 cm"],
+            "points": 3
+        },
+        {
+            "question": "1 kHz in Sekunden",
+            "answers": ["1 ms", "10 ms", "100 ms", "100 µs", "10 µs"],
+            "points": 1
+        },
+        {
+            "question": "<img src=\"img/differenzierer.jpg\">",
+            "answers": ["Differenzierer", "Spannungsfolger", "Invertierender Verstärker", "Nicht-Invertierender Verstärker", "Summierverstärker", "Integrierer"],
+            "points": 2
+        },
+        {
+            "question": "<img src=\"img/integrierer.jpg\">",
+            "answers": ["Integrierer", "Spannungsfolger", "Invertierender Verstärker", "Nicht-Invertierender Verstärker", "Summierverstärker", "Differenzierer"],
+            "points": 2
+        },
+        {
+            "question": "<img src=\"img/inv_summierer.jpg\">",
+            "answers": ["Summierverstärker", "Spannungsfolger", "Invertierender Verstärker", "Nicht-Invertierender Verstärker", "Differenzierer", "Integrierer"],
+            "points": 2
+        },
+        {
+            "question": "<img src=\"img/spannungsfolger.jpg\">",
+            "answers": ["Spannungsfolger", "Invertierender Verstärker", "Nicht-Invertierender Verstärker", "Summierverstärker", "Differenzierer", "Integrierer"],
+            "points": 2
+        },
+        {
+            "question": "<img src=\"img/inv_summierer.jpg\">",
+            "answers": ["Summierverstärker", "Spannungsfolger", "Invertierender Verstärker", "Nicht-Invertierender Verstärker", "Differenzierer", "Integrierer"],
+            "points": 2
+        },
+        {
+            "question": "<img src=\"img/inv_verstaerker.jpg\">",
+            "answers": ["Invertierender Verstärker", "Spannungsfolger", "Nicht-Invertierender Verstärker", "Summierverstärker", "Differenzierer", "Integrierer"],
+            "points": 2
+        },
+        {
+            "question": "<img src=\"img/ninv_verstaerker.jpg\">",
+            "answers": ["Nicht-Invertierender Verstärker", "Spannungsfolger", "Invertierender Verstärker", "Summierverstärker", "Differenzierer", "Integrierer"],
+            "points": 2
+        }
+    ]
+}
