@@ -134,6 +134,17 @@ $(document).ready(function() {
         fillForm("Save question");
     });
 
+    function requestFileName() {
+        var fileName = 'quiz.json';
+        var input = prompt('Please enter the file name:', fileName);
+
+        if (input != null) {
+            fileName = input.split('.')[0] + '.json';
+        }
+
+        return fileName;
+    }
+
     $("#generateFile").click( function () {
         let questionsArray = {
             "questions" : questions
@@ -146,7 +157,7 @@ $(document).ready(function() {
         url = URL.createObjectURL( blob );
         var link = document.createElement( 'a' );
         link.setAttribute( 'href', url );
-        link.setAttribute( 'download', 'quiz.json' );
+        link.setAttribute( 'download', requestFileName());
 
         var event = document.createEvent( 'MouseEvents' );
         event.initMouseEvent( 'click', true, true, window, 1, 0, 0, 0, 0, false, false, false, false, 0, null);
