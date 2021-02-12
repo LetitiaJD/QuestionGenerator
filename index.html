@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<!-- saved from url=(0052)https://getbootstrap.com/docs/4.0/examples/checkout/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
 
-    <title>Checkout example for Bootstrap</title>
+    <title>Question Generator</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/checkout/">
 
@@ -28,31 +26,20 @@
     <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
             <h4 class="d-flex justify-content-between align-items-center mb-3">
-                <span class="text-muted">Existing Questions</span>
+                <span class="text">Existing Questions</span>
             </h4>
-            <form class="card p-2">
+            <form>
                 <button id="generateFile" class="btn btn-primary btn-lg btn-block" type="submit">Generate file</button>
             </form>
             <hr class="mb-4">
-            <div style="max-height: 500px; overflow-y: auto">
-                <ul id="questionList" class="list-group mb-3">
-                    <!--
-                    <li class="list-group-item d-flex justify-content-between lh-condensed">
-                        <div>
-                            <h6 class="my-0">This is a question</h6>
-                            <small class="text-muted">Correct answer</small>
-                        </div>
-                        <span class="text-danger">Hard</span>
-                    </li>
-                    -->
-                </ul>
-
+            <div style="max-height: 420px; overflow-y: auto">
+                <ul id="questionList" class="list-group mb-3"></ul>
                 <form class="md-form">
-                        <div class="btn btn-primary btn-sm float-left">
-                            <input id="fileInput" type="file">
+                        <div class="form-group">
+                            <label class="form-label" for="fileInput">Load file:</label>
+                            <input id="fileInput" type="file" class="form-control-file"/>
                         </div>
                 </form>
-
             </div>
         </div>
         <div class="col-md-8 order-md-1">
@@ -70,16 +57,13 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="mb-3">
                     <label for="correctAnswer">Correct answer</label>
                     <input type="text" id="correctAnswer" class="form-control" placeholder="Write your correct answer here" required="">
                     <div class="invalid-feedback">
                         Please enter a valid correct answer
                     </div>
-
                 </div>
-
                 <div class="form-group">
                     <label for="incorrectAnswers">Incorrect answers</label>
                     <textarea id="incorrectAnswers" class="form-control" rows="5"></textarea>
@@ -127,11 +111,6 @@
 
     <footer class="my-5 pt-5 text-muted text-center text-small">
         <p class="mb-1">© 2021 Dawson</p>
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.0/examples/checkout/#">Privacy</a></li>
-            <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.0/examples/checkout/#">Terms</a></li>
-            <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.0/examples/checkout/#">Support</a></li>
-        </ul>
     </footer>
 </div>
 
